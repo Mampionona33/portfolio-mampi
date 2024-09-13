@@ -1,7 +1,7 @@
 const Introduction = () => {
   return (
     <div className="">
-      <hr className="h-2 bg-neutral-900 dark:bg-neutral-100 rounded w-1/6 mb-4" />
+      <hr className="h-2 bg-neutral-900 dark:bg-neutral-100 rounded w-1/6 mb-6" />
       <div className="flex flex-col gap-2 w-1/2">
         <h1 className="text-3xl font-medium">
           Je suis Mampionona, et je suis un Développeur
