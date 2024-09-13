@@ -7,8 +7,9 @@ const Introduction = () => {
           Je suis Mampionona, et je suis un Développeur
         </h1>
         <p>
-          Développeur spécialisé dans la création d'applications complexes comme
-          les ERP, HRM, j'utilise React, Node.js et Laravel pour concevoir des
+          Développeur spécialisé dans la création d'applications complexes
+          telles que les ERP et les systèmes de gestion des ressources humaines
+          (HRM). J'utilise React, Node.js et Laravel pour concevoir des
           solutions robustes et innovantes. Découvrez mes projets dans ce
           portfolio.
         </p>
