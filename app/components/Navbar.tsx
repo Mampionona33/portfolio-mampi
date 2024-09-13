@@ -10,10 +10,18 @@ const Navbar: React.FC = () => {
         <Image src={logo} alt="Logo" className="w-12" />
       </div>
       <ul className="flex flex-row items-center gap-6 dark:text-white">
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <a href="#accueil">Accueil</a>{" "}
+        </li>
+        <li>
+          <a href="#a_propos">À propos</a>
+        </li>
+        <li>
+          <a href="#projects">Projets</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
         <ThemeSwitcher />
       </ul>
     </nav>

@@ -1,6 +1,6 @@
 const Introduction = () => {
   return (
-    <div className="">
+    <section className="min-h-screen pt-40" id="accueil">
       <hr className="h-2 bg-neutral-900 dark:bg-neutral-100 rounded w-1/6 mb-6" />
       <div className="flex flex-col gap-2 w-1/2">
         <h1 className="text-3xl font-medium">
@@ -13,7 +13,7 @@ const Introduction = () => {
           portfolio.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 export default Introduction;
