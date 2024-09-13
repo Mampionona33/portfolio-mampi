@@ -8,8 +8,8 @@ const Introduction = () => {
         </h1>
         <p>
           Développeur spécialisé dans la création d'applications complexes comme
-          les ERP, j'utilise React, Node.js et MongoDB pour concevoir des
-          solutions robustes et innovantes. Découvrez mes projets dans ce
+          les ERP, j'utilise React, Node.js, Laravel et MongoDB pour concevoir
+          des solutions robustes et innovantes. Découvrez mes projets dans ce
           portfolio.
         </p>
       </div>
