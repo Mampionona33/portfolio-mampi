@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex flex-col `}
+        className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen`}
       >
         <Navbar />
-        {children}
+        <main className="flex-grow">{children}</main>
       </body>
     </html>
   );
