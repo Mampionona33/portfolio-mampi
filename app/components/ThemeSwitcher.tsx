@@ -1,11 +1,12 @@
 "use client";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useState } from "react";
 
 const ThemeSwitcher: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(false);
 
   useEffect(() => {
-    // Vérifie le mode sombre enregistré dans le localStorage
     const darkModePreference = localStorage.getItem("dark-mode") === "true";
     setDarkMode(darkModePreference);
     if (darkModePreference) {
@@ -31,7 +32,10 @@ const ThemeSwitcher: React.FC = () => {
       onClick={toggleDarkMode}
       className="p-2 bg-gray-200 dark:bg-gray-700 rounded"
     >
-      {darkMode ? "Light Mode" : "Dark Mode"}
+      <FontAwesomeIcon
+        icon={darkMode ? faMoon : faSun}
+        className={darkMode ? "text-yellow-400" : "text-gray-800"}
+      />
     </button>
   );
 };
