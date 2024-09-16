@@ -8,7 +8,7 @@ const Introduction = () => {
             Mampionona - Développeur Web Full Stack
           </h1>
           <p>
-            {`Spécialisé dans la création d'applications complexes telles que les ERP et les SIRH, j'utilise des technologies comme React, Node.js, Laravel et MongoDB pour concevoir des solutions performantes et innovantes. Explorez mes projets dans ce portfolio.`}
+            {`Spécialisé dans la création d'applications complexes telles que les ERP et les SIRH, j'utilise des technologies comme React, Node.js et Laravel pour concevoir des solutions performantes et innovantes. Explorez mes projets dans ce portfolio.`}
           </p>
         </div>
       </div>
