@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { Analytics } from "@vercel/analytics/react";
 config.autoAddCss = false;
 
 const geistSans = localFont({
@@ -33,7 +34,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen`}
       >
         <Navbar />
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow">
+          {children}
+          <Analytics />
+        </main>
       </body>
     </html>
   );
