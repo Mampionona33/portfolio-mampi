@@ -1,0 +1,64 @@
+{
+  "NavbarLinks": {
+    "a_propos": "À propos",
+    "projets": "Projets",
+    "contact": "Contact",
+    "lang": "Français",
+    "lang_en": "English"
+  },
+  "HomePage": {
+    "title": "Portfolio | RAMAHAZOMANANA Tsanta Mampionona",
+    "description": "Portfolio de RAMAHAZOMANANA Tsanta Mampionona, Développeur full-stack JavaScript/PHP.",
+    "About": {
+      "title": "À propos de moi",
+      "paragraph1": "Passionné par l'innovation technologique et l'automatisation...",
+      "paragraph2": "Mon aventure dans le développement a débuté lors de mon expérience chez Ingedata...",
+      "paragraph3": "Par la suite, j'ai conçu une application de suivi de tâches...",
+      "educationTitle": "Formation",
+      "paragraph4": "Pour renforcer mes compétences, j'ai suivi une formation...",
+      "paragraph5": "Suite à cette formation, j'ai travaillé sur un projet de gestion de paie...",
+      "paragraph6": "En parallèle, je poursuis une Licence en informatique au Centre National de Télé-Enseignement..."
+    },
+    "Introduction": {
+      "title": "Mampionona - Développeur Web Full Stack",
+      "description": "Spécialisé dans la création d'applications complexes telles que les ERP et les SIRH, j'utilise des technologies comme React, Node.js et Laravel pour concevoir des solutions performantes et innovantes. Explorez mes projets dans ce portfolio."
+    },
+    "Projects": {
+      "title": "Mes Projets",
+      "items": [
+        {
+          "name": "Application de Suivi de Productivité",
+          "technologies": ["React", "Node.js", "GraphQL", "MongoDB"],
+          "description": "Cette application aide les utilisateurs à suivre leur productivité et à gérer leurs tâches efficacement.",
+          "link": "/projets/suivi-productivite"
+        },
+        {
+          "name": "Gestion de l'Énergie des Bâtiments",
+          "technologies": ["React TypeScript", "Node.js"],
+          "description": "Ce système permet une gestion optimisée de l'énergie dans les bâtiments.",
+          "link": "/projets/gestion-energie"
+        },
+        {
+          "name": "Gestion de Paie",
+          "technologies": ["React", "Laravel"],
+          "description": "Ce projet simplifie la gestion des salaires et des paiements dans les entreprises.",
+          "link": "/projets/gestion-paie"
+        },
+        {
+          "name": "Gestion de Location de Salles",
+          "technologies": ["React", "Laravel"],
+          "description": "Ce projet facilite la gestion des réservations et de l'utilisation des salles.",
+          "link": "/projets/gestion-location"
+        }
+      ]
+    }
+  },
+  "ProjectPage1": {
+    "title": "Projet 1",
+    "description": "Description détaillée du projet 1...",
+    "content": {
+      "intro": "Introduction du projet 1...",
+      "details": "Détails techniques et résultats du projet 1..."
+    }
+  }
+}

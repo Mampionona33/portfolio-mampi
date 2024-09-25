@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Introduction from "./components/Introduction";
-import About from "./components/About";
-import Projects from "./components/Projets";
-import Contact from "./components/Contact";
+import Introduction from "../components/Introduction";
+import About from "../components/About";
+import Projects from "../components/Projets";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (

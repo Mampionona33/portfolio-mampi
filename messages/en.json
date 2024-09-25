@@ -1,0 +1,64 @@
+{
+  "NavbarLinks": {
+    "a_propos": "About",
+    "projets": "Projects",
+    "contact": "Contact",
+    "lang": "French",
+    "lang_en": "English"
+  },
+  "HomePage": {
+    "title": "Portfolio | RAMAHAZOMANANA Tsanta Mampionona",
+    "description": "Portfolio of RAMAHAZOMANANA Tsanta Mampionona, Full-stack JavaScript/PHP Developer.",
+    "About": {
+      "title": "About Me",
+      "paragraph1": "Passionate about technological innovation and automation...",
+      "paragraph2": "My journey in development began during my experience at Ingedata...",
+      "paragraph3": "Subsequently, I designed a task tracking application...",
+      "educationTitle": "Education",
+      "paragraph4": "To enhance my skills, I took a training course...",
+      "paragraph5": "Following this training, I worked on a payroll management project...",
+      "paragraph6": "In parallel, I am pursuing a Bachelor's degree in Computer Science at the National Center for Distance Education..."
+    },
+    "Introduction": {
+      "title": "Mampionona - Full Stack Web Developer",
+      "description": "Specializing in the creation of complex applications such as ERPs and HR systems, I use technologies like React, Node.js, and Laravel to design high-performance and innovative solutions. Explore my projects in this portfolio."
+    },
+    "Projects": {
+      "title": "My Projects",
+      "items": [
+        {
+          "name": "Productivity Tracking Application",
+          "technologies": ["React", "Node.js", "GraphQL", "MongoDB"],
+          "description": "This application helps users track their productivity and manage their tasks efficiently.",
+          "link": "/projects/productivity-tracking"
+        },
+        {
+          "name": "Building Energy Management",
+          "technologies": ["React TypeScript", "Node.js"],
+          "description": "This system allows for optimized energy management in buildings.",
+          "link": "/projects/energy-management"
+        },
+        {
+          "name": "Payroll Management",
+          "technologies": ["React", "Laravel"],
+          "description": "This project simplifies the management of salaries and payments in companies.",
+          "link": "/projects/payroll-management"
+        },
+        {
+          "name": "Room Booking Management",
+          "technologies": ["React", "Laravel"],
+          "description": "This project facilitates the management of bookings and the use of rooms.",
+          "link": "/projects/room-booking"
+        }
+      ]
+    }
+  },
+  "ProjectPage1": {
+    "title": "Project 1",
+    "description": "Detailed description of project 1...",
+    "content": {
+      "intro": "Introduction of project 1...",
+      "details": "Technical details and results of project 1..."
+    }
+  }
+}
