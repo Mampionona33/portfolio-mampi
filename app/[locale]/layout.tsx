@@ -8,6 +8,7 @@ import { getMessages } from "next-intl/server";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Analytics } from "@vercel/analytics/react";
+import local from "next/font/local";
 config.autoAddCss = false;
 
 const geistSans = localFont({
@@ -24,7 +25,7 @@ const geistMono = localFont({
 //   description:
 //     "Portfolio de RAMAHAZOMANANA Tsanta Mampionona, Développeur full-stack JavaScript/PHP.",
 // };
-
+console.log("local", local);
 export default async function RootLayout({
   children,
   params: { locale },
