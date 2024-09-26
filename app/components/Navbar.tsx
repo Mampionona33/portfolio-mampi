@@ -22,6 +22,22 @@ const Navbar: React.FC = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex flex-row items-center gap-6 dark:text-white">
         <li>
+          <div className="flex items-center justify-between">
+            <label htmlFor="lang" className="font-bold mr-2 dark:text-white">
+              Langue:
+            </label>
+            <select
+              id="lang"
+              name="lang"
+              className="border rounded-md p-1 dark:bg-gray-700 dark:text-white"
+            >
+              <option>En</option>
+              <option>Fr</option>
+            </select>
+          </div>
+        </li>
+
+        <li>
           <a href="/#accueil">Accueil</a>
         </li>
         <li>
@@ -33,6 +49,7 @@ const Navbar: React.FC = () => {
         <li>
           <a href="/#contact">Contact</a>
         </li>
+
         <ThemeSwitcher />
       </ul>
 
@@ -70,6 +87,19 @@ const Navbar: React.FC = () => {
               </a>
             </li>
             <ThemeSwitcher />
+            <div className="mt-4">
+              <label htmlFor="lang" className="font-bold mr-2 dark:text-white">
+                Langue:
+              </label>
+              <select
+                id="lang"
+                name="lang"
+                className="border rounded-md p-1 dark:bg-gray-700 dark:text-white"
+              >
+                <option>En</option>
+                <option>Fr</option>
+              </select>
+            </div>
           </ul>
         </div>
       )}
