@@ -69,31 +69,29 @@ const Contact = () => {
           <p className="mb-4">
             <span className="font-bold">Téléphone :</span> +261 34 74 444 96
           </p>
-          <p className="mb-4">
-            <span className="font-bold">Réseaux sociaux :</span>
-            <ul className="list-disc ml-5 mt-2">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/tsanta-ramahazomanana-4a9508175/"
-                  className="text-blue-500 dark:text-blue-300"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/Mampionona33"
-                  className="text-blue-500 dark:text-blue-300"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub
-                </a>
-              </li>
-            </ul>
-          </p>
+          <p className="font-bold mb-2">Réseaux sociaux :</p>
+          <ul className="list-disc ml-5 mt-2 mb-4">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tsanta-ramahazomanana-4a9508175/"
+                className="text-blue-500 dark:text-blue-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Mampionona33"
+                className="text-blue-500 dark:text-blue-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

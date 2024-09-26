@@ -5,13 +5,14 @@ import { getRequestConfig } from "next-intl/server";
 const allowedLocales = ["en", "fr"];
 
 export default getRequestConfig(async ({ locale }) => {
-  // Vérifiez si la locale actuelle est dans la liste des locales autorisées
   if (!allowedLocales.includes(locale as string)) {
     notFound();
   }
+
   try {
-    const response = await import(`./messages/${locale}.json`);
-    return response.default;
+    return {
+      messages: (await import(`./messages/${locale}.json`)).default,
+    };
   } catch (error) {
     return notFound();
   }

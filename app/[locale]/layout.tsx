@@ -12,11 +12,11 @@ import local from "next/font/local";
 config.autoAddCss = false;
 
 const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+  src: "../fonts/GeistVF.woff",
   variable: "--font-geist-sans",
 });
 const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+  src: "../fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
 });
 
@@ -25,7 +25,6 @@ const geistMono = localFont({
 //   description:
 //     "Portfolio de RAMAHAZOMANANA Tsanta Mampionona, Développeur full-stack JavaScript/PHP.",
 // };
-console.log("local", local);
 export default async function RootLayout({
   children,
   params: { locale },
@@ -33,6 +32,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }>) {
+  console.log("locale", locale);
   const messages = await getMessages();
   return (
     <html lang={locale}>
