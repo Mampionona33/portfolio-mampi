@@ -1,7 +1,7 @@
 # Utilisation d'une image de base stable
 FROM node:lts-slim
 
-# Mise à jour des paquets et installation des dépendances requises
+# Mise à jour des paquets et installation des dépendances requises, y compris OpenSSH
 RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-transport-https \
     ca-certificates \
@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     gnupg \
     lsb-release \
+    openssh-client \  
     && rm -rf /var/lib/apt/lists/*
 
 # Ajout de la clé GPG pour Docker et configuration du dépôt Docker

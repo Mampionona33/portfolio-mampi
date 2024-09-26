@@ -1,7 +1,6 @@
 {
-  "build": { "dockerfile": "Dockerfile" },
   "name": "Devcontainer",
-
+  "build": { "dockerfile": "Dockerfile" },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -13,8 +12,17 @@
         "GitHub.codespaces",
         "MS-CEINTL.vscode-language-pack-fr",
         "vscode.git"
-      ]
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
     }
   },
-  "forwardPorts": [3000]
+  "forwardPorts": [3000],
+
+  "remoteUser": "root", 
+  "postCreateCommand": "chsh -s /bin/bash", 
+  "remoteEnv": {
+    "SHELL": "/bin/bash" 
+  }
 }
