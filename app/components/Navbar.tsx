@@ -5,12 +5,28 @@ import logo from "../../public/logo_portfolio.svg";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useLocale } from "next-intl";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const locale = useLocale();
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleSelectLanguage = (
+    event: React.ChangeEvent<HTMLSelectElement>
+  ) => {
+    const selectedLanguage = event.target.value;
+
+    if (selectedLanguage === "fr") {
+      window.location.href = "/fr";
+    }
+    if (selectedLanguage === "en") {
+      window.location.href = "/en";
+    }
   };
 
   return (
@@ -30,9 +46,11 @@ const Navbar: React.FC = () => {
               id="lang"
               name="lang"
               className="border rounded-md p-1 dark:bg-gray-700 dark:text-white"
+              onChange={handleSelectLanguage}
+              value={locale}
             >
-              <option>En</option>
-              <option>Fr</option>
+              <option value="en">En</option>
+              <option value="fr">Fr</option>
             </select>
           </div>
         </li>
@@ -95,9 +113,11 @@ const Navbar: React.FC = () => {
                 id="lang"
                 name="lang"
                 className="border rounded-md p-1 dark:bg-gray-700 dark:text-white"
+                onChange={handleSelectLanguage}
+                value={locale} // Use 'locale' here too
               >
-                <option>En</option>
-                <option>Fr</option>
+                <option value="en">En</option>
+                <option value="fr">Fr</option>
               </select>
             </div>
           </ul>
