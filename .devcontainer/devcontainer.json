@@ -1,4 +1,20 @@
 {
+  "build": { "dockerfile": "Dockerfile" },
   "name": "Devcontainer",
-  "image": "ghcr.io/codesandbox/devcontainers/typescript-node:latest"
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "loczek.next-js-ts-snippets",
+        "rodrigovallades.es7-react-js-snippets",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "Codeium.codeium",
+        "GitHub.codespaces",
+        "MS-CEINTL.vscode-language-pack-fr",
+        "vscode.git"
+      ]
+    }
+  },
+  "forwardPorts": [3000]
 }
