@@ -5,10 +5,12 @@ import logo from "../../public/logo_portfolio.svg";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const t = useTranslations("NavbarLinks");
 
   const locale = useLocale();
 
@@ -40,7 +42,7 @@ const Navbar: React.FC = () => {
         <li>
           <div className="flex items-center justify-between">
             <label htmlFor="lang" className="font-bold mr-2 dark:text-white">
-              Langue:
+              {t("language")}
             </label>
             <select
               id="lang"
@@ -49,23 +51,23 @@ const Navbar: React.FC = () => {
               onChange={handleSelectLanguage}
               value={locale}
             >
-              <option value="en">En</option>
-              <option value="fr">Fr</option>
+              <option value="en">{t("lang_en")}</option>
+              <option value="fr">{t("lang")}</option>
             </select>
           </div>
         </li>
 
         <li>
-          <a href="/#accueil">Accueil</a>
+          <a href="/#accueil">{t("accueil")}</a>
         </li>
         <li>
-          <a href="/#a_propos">À propos</a>
+          <a href="/#a_propos">{t("a_propos")}</a>
         </li>
         <li>
-          <a href="/#projects">Projets</a>
+          <a href="/#projects">{t("projets")}</a>
         </li>
         <li>
-          <a href="/#contact">Contact</a>
+          <a href="/#contact">{t("contact")}</a>
         </li>
 
         <ThemeSwitcher />

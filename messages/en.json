@@ -1,8 +1,10 @@
 {
   "NavbarLinks": {
+    "accueil": "Home",
     "a_propos": "About",
     "projets": "Projects",
     "contact": "Contact",
+    "language": "Language",
     "lang": "French",
     "lang_en": "English"
   },
