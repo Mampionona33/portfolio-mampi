@@ -30,25 +30,25 @@
       "items": [
         {
           "name": "Application de Suivi de Productivité",
-          "technologies": ["React", "Node.js", "GraphQL", "MongoDB"],
+          "technologies": "React, Node.js, GraphQL, MongoDB",
           "description": "Cette application aide les utilisateurs à suivre leur productivité et à gérer leurs tâches efficacement.",
           "link": "/projets/suivi-productivite"
         },
         {
           "name": "Gestion de l'Énergie des Bâtiments",
-          "technologies": ["React TypeScript", "Node.js"],
+          "technologies": "React TypeScript, Node.js",
           "description": "Ce système permet une gestion optimisée de l'énergie dans les bâtiments.",
           "link": "/projets/gestion-energie"
         },
         {
           "name": "Gestion de Paie",
-          "technologies": ["React", "Laravel"],
+          "technologies": "React, Laravel",
           "description": "Ce projet simplifie la gestion des salaires et des paiements dans les entreprises.",
           "link": "/projets/gestion-paie"
         },
         {
           "name": "Gestion de Location de Salles",
-          "technologies": ["React", "Laravel"],
+          "technologies": "React, Laravel",
           "description": "Ce projet facilite la gestion des réservations et de l'utilisation des salles.",
           "link": "/projets/gestion-location"
         }
