@@ -12,7 +12,6 @@ const Projects = () => {
   const t = useTranslations("HomePage.Projects");
 
   const numberOfProjects = 4;
-  console.log("t", t("items"));
   const projects: Project[] = [];
 
   for (let i = 0; i < numberOfProjects; i++) {

@@ -22,16 +22,16 @@ const Navbar: React.FC = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex flex-row items-center gap-6 dark:text-white">
         <li>
-          <a href="#accueil">Accueil</a>
+          <a href="/#accueil">Accueil</a>
         </li>
         <li>
-          <a href="#a_propos">À propos</a>
+          <a href="/#a_propos">À propos</a>
         </li>
         <li>
-          <a href="#projects">Projets</a>
+          <a href="/#projects">Projets</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="/#contact">Contact</a>
         </li>
         <ThemeSwitcher />
       </ul>

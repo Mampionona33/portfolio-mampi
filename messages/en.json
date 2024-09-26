@@ -21,7 +21,7 @@
     },
     "Introduction": {
       "title": "Mampionona - Full Stack Web Developer",
-      "description": "Specializing in the creation of complex applications such as ERPs and HR systems, I use technologies like React, Node.js, and Laravel to design high-performance and innovative solutions. Explore my projects in this portfolio."
+      "description": "Specializing in the creation of complex applications such as ERPs and HR systems, I use technologies like React, Node.js, and Laravel to design high-performance and innovative solutions. Explore my projets in this portfolio."
     },
     "Projects": {
       "title": "My Projects",
@@ -30,25 +30,25 @@
           "name": "Productivity Tracking Application",
           "technologies": "React, Node.js, GraphQL, MongoDB",
           "description": "This application helps users track their productivity and manage their tasks efficiently.",
-          "link": "/projects/productivity-tracking"
+          "link": "/projets/productivity-tracking"
         },
         {
           "name": "Building Energy Management",
           "technologies": "React TypeScript, Node.js",
           "description": "This system allows for optimized energy management in buildings.",
-          "link": "/projects/energy-management"
+          "link": "/projets/energy-management"
         },
         {
           "name": "Payroll Management",
           "technologies": "React, Laravel",
           "description": "This project simplifies the management of salaries and payments in companies.",
-          "link": "/projects/payroll-management"
+          "link": "/projets/payroll-management"
         },
         {
           "name": "Room Booking Management",
           "technologies": "React, Laravel",
           "description": "This project facilitates the management of bookings and the use of rooms.",
-          "link": "/projects/room-booking"
+          "link": "/projets/room-booking"
         }
       ]
     }
