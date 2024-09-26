@@ -11,13 +11,13 @@
     "description": "Portfolio de RAMAHAZOMANANA Tsanta Mampionona, Développeur full-stack JavaScript/PHP.",
     "About": {
       "title": "À propos de moi",
-      "paragraph1": "Passionné par l'innovation technologique et l'automatisation...",
-      "paragraph2": "Mon aventure dans le développement a débuté lors de mon expérience chez Ingedata...",
-      "paragraph3": "Par la suite, j'ai conçu une application de suivi de tâches...",
+      "paragraph1": "Passionné par l'innovation technologique et l'automatisation, j'ai commencé mon parcours professionnel avec un diplôme en Génie industriel de l'Institut Supérieur de la Technologie d'Antananarivo. Mon intérêt pour les nouvelles technologies m'a conduit à évoluer vers le développement logiciel.",
+      "paragraph2": "Mon aventure dans le développement a débuté lors de mon expérience chez Ingedata, où j'ai découvert le potentiel de l'automatisation. J'ai commencé par créer des scripts via le DevTools de Chrome et développé des extensions pour améliorer l'UI/UX, ce qui a marqué le début de ma passion pour le développement.",
+      "paragraph3": "Par la suite, j'ai conçu une application de suivi de tâches et de productivité utilisant React, Node.js, GraphQL et MongoDB. J'ai également eu l'opportunité de travailler sur un projet majeur de gestion de l'énergie des bâtiments en utilisant React TypeScript et Node.js pour un client en full remote.",
       "educationTitle": "Formation",
-      "paragraph4": "Pour renforcer mes compétences, j'ai suivi une formation...",
-      "paragraph5": "Suite à cette formation, j'ai travaillé sur un projet de gestion de paie...",
-      "paragraph6": "En parallèle, je poursuis une Licence en informatique au Centre National de Télé-Enseignement..."
+      "paragraph4": "Pour renforcer mes compétences, j'ai suivi une formation de réorientation en développement logiciel, où j'ai acquis des connaissances approfondies sur les bases de la programmation, les algorithmes, ainsi que la programmation procédurale et orientée objet. J'ai également étudié les design patterns et les méthodologies agiles.",
+      "paragraph5": "Suite à cette formation, j'ai travaillé sur un projet de gestion de paie avec React et Laravel. Actuellement, je développe une application de gestion de location de salles avec React et Laravel.",
+      "paragraph6": "En parallèle, je poursuis une Licence en informatique au Centre National de Télé-Enseignement de Madagascar, ce qui me permet de continuer à explorer de nouvelles opportunités professionnelles, que ce soit en freelance ou en CDI."
     },
     "Introduction": {
       "title": "Mampionona - Développeur Web Full Stack",

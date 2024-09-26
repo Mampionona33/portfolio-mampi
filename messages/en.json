@@ -11,13 +11,13 @@
     "description": "Portfolio of RAMAHAZOMANANA Tsanta Mampionona, Full-stack JavaScript/PHP Developer.",
     "About": {
       "title": "About Me",
-      "paragraph1": "Passionate about technological innovation and automation...",
-      "paragraph2": "My journey in development began during my experience at Ingedata...",
-      "paragraph3": "Subsequently, I designed a task tracking application...",
+      "paragraph1": "Passionate about technological innovation and automation, I began my professional journey with a degree in Industrial Engineering from the Higher Institute of Technology of Antananarivo. My interest in new technologies led me to transition into software development.",
+      "paragraph2": "My development journey started during my experience at Ingedata, where I discovered the potential of automation. I began by creating scripts using Chrome DevTools and developed extensions to improve UI/UX, marking the beginning of my passion for development.",
+      "paragraph3": "Later, I designed a task tracking and productivity application using React, Node.js, GraphQL, and MongoDB. I also had the opportunity to work on a major building energy management project using React TypeScript and Node.js for a client fully remotely.",
       "educationTitle": "Education",
-      "paragraph4": "To enhance my skills, I took a training course...",
-      "paragraph5": "Following this training, I worked on a payroll management project...",
-      "paragraph6": "In parallel, I am pursuing a Bachelor's degree in Computer Science at the National Center for Distance Education..."
+      "paragraph4": "To further enhance my skills, I completed a retraining program in software development, where I gained in-depth knowledge of programming fundamentals, algorithms, as well as procedural and object-oriented programming. I also studied design patterns and agile methodologies.",
+      "paragraph5": "Following this training, I worked on a payroll management project using React and Laravel. Currently, I am developing a room rental management application with React and Laravel.",
+      "paragraph6": "In parallel, I am pursuing a Bachelor's degree in Computer Science at the National Center for Distance Education of Madagascar, allowing me to continue exploring new professional opportunities, whether as a freelancer or in a full-time position."
     },
     "Introduction": {
       "title": "Mampionona - Full Stack Web Developer",
