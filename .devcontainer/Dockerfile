@@ -9,7 +9,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     gnupg \
     lsb-release \
-    openssh-client \  
+    openssh-client \
+    bash-completion \
     && rm -rf /var/lib/apt/lists/*
 
 # Ajout de la clé GPG pour Docker et configuration du dépôt Docker
