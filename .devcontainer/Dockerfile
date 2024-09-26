@@ -27,9 +27,11 @@ RUN curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /
 # Installation de pnpm en tant que gestionnaire de paquets Node.js
 RUN npm install -g pnpm
 
-
 # Configuration globale de Git pour ajouter le répertoire de travail comme "safe"
 RUN git config --global --add safe.directory /workspaces/portfolio-mampi
+
+# Activer l'auto-complétion
+RUN echo 'if [ -f /etc/bash_completion ]; then . /etc/bash_completion; fi' >> /root/.bashrc
 
 # Commande pour garder le conteneur actif
 CMD ["sleep", "infinity"]
