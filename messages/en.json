@@ -28,25 +28,25 @@
       "items": [
         {
           "name": "Productivity Tracking Application",
-          "technologies": ["React", "Node.js", "GraphQL", "MongoDB"],
+          "technologies": "React, Node.js, GraphQL, MongoDB",
           "description": "This application helps users track their productivity and manage their tasks efficiently.",
           "link": "/projects/productivity-tracking"
         },
         {
           "name": "Building Energy Management",
-          "technologies": ["React TypeScript", "Node.js"],
+          "technologies": "React TypeScript, Node.js",
           "description": "This system allows for optimized energy management in buildings.",
           "link": "/projects/energy-management"
         },
         {
           "name": "Payroll Management",
-          "technologies": ["React", "Laravel"],
+          "technologies": "React, Laravel",
           "description": "This project simplifies the management of salaries and payments in companies.",
           "link": "/projects/payroll-management"
         },
         {
           "name": "Room Booking Management",
-          "technologies": ["React", "Laravel"],
+          "technologies": "React, Laravel",
           "description": "This project facilitates the management of bookings and the use of rooms.",
           "link": "/projects/room-booking"
         }
