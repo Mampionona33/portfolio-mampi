@@ -20,11 +20,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
 });
 
-// export const metadata: Metadata = {
-//   title: "Portfolio | RAMAHAZOMANANA Tsanta Mampionona",
-//   description:
-//     "Portfolio de RAMAHAZOMANANA Tsanta Mampionona, Développeur full-stack JavaScript/PHP.",
-// };
+export const metadata: Metadata = {
+  title: "Portfolio | RAMAHAZOMANANA Tsanta Mampionona",
+  description:
+    "Portfolio de RAMAHAZOMANANA Tsanta Mampionona, Développeur full-stack JavaScript/PHP.",
+};
 export default async function RootLayout({
   children,
   params: { locale },
